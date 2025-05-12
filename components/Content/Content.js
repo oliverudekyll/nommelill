@@ -5,9 +5,8 @@ import { useActionState, useState } from "react";
 export default function Content() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const audio = new Audio("/media/song.mp3");
-
   function handleClick() {
+    const audio = new Audio("/media/song.mp3");
     setIsOpen(true);
     audio.play();
   }
