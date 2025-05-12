@@ -13,9 +13,9 @@ body * {
   justify-content: center;
   align-items: center;
 
-  font-size: 2rem;
   color: rgb(228, 199, 124);
   background-color: rgb(70, 77, 58);
+  text-align: center;
 
   cursor: pointer;
 }
